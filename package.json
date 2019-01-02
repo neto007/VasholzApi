@@ -30,6 +30,12 @@
   "autoload": {
     "App": "./app"
   },
+  "standard": {
+    "globals": [
+      "use",
+      "make"
+    ]
+  },
   "engines": {
     "node": "10.x",
     "npm": "6.X"
