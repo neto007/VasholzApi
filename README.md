@@ -26,3 +26,16 @@ Run the following command to run startup migrations.
 ```js
 adonis migration:run
 ```
+
+### Adonis Heroku
+Enviar seus arquivos para o Git.
+Configurar o o Deploy apartir do repositorio, ou enviar ao proprio Heroku atravez da CLI da propria plataforma.
+Com o projeto no já pronto para deploy vamos configurar as Variaveis de ambientes.
+ ** 1 pegar todas as variaveis do arquivo `.env` colocar em *Reveal Config Vars*  localizado na Aba Settings
+  devemos incluir mais uma variavel  `ENV_SILENT = True` responsavel por inutilizar os dados de `.env`
+Vamos tambem instalar o banco de dados em nosso projeto:
+Atraves da CLI vamos rodar o seguinte comando:
+:::: heroku run npm install pg --save ::::: 
+depois o Adonis utiliza uma  migrations para versionar os banco de dados para sempre que houver altaracao no modelo de dados  devemos executar este comando.
+:::: heroku run ENV_SILENT=true node ace migration:run --force ::::
+
