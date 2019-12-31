@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "Teste",
+    "owner": "salvador",
+    "description": "esse sistema é um api de para dispositivos moveis"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Salvador"
+  }
+}
