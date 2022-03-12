@@ -4,7 +4,7 @@ metadata:
   name: VasholzApi
   annotations:
     github.com/project-slug: neto007/VasholzApi
-    backstage.io/techdocs-ref: ./README.md
+    backstage.io/techdocs-ref: README.md
 
 spec:
   type: other
