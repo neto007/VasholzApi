@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: VasholzApi
+  annotations:
+    github.com/project-slug: neto007/VasholzApi
+spec:
+  type: other
+  lifecycle: unknown
+  owner: boxoffice
